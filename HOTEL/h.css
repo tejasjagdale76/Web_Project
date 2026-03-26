@@ -1,0 +1,123 @@
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background-color:#fafafa;
+}
+
+
+/* Hero */
+
+.hero{
+color:#D4AF37;
+font-weight:400;
+letter-spacing:2px;
+text-align:center;
+font-family: 'Georgia', serif;
+font-style: italic;
+}
+
+.hero-img{
+border-radius:10px;
+margin-top:10px;
+}
+
+
+
+
+/* Button */
+
+.book-btn{
+padding:12px 25px;
+background-color:#D4AF37;
+color:white;
+border:none;
+font-size:16px;
+cursor:pointer;
+margin-top:20px;
+}
+
+.book-btn:hover{
+background-color:#b8962e;
+}
+
+
+/* Rooms */
+
+.rooms{
+margin-top:70px;
+text-align:center;
+}
+
+
+/* Room Card */
+
+.room-card{
+background-color:white;
+border-radius:10px;
+box-shadow:0 4px 8px rgba(0,0,0,0.2);
+overflow:hidden;
+text-align:center;
+transition:transform 0.3s;
+padding-bottom:10px;
+}
+
+.room-card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.room-card:hover{
+transform:scale(1.05);
+}
+
+.room-card h3{
+margin:10px 0 5px 0;
+font-size:18px;
+}
+
+.room-card p{
+padding:0 10px 15px 10px;
+color:#555;
+}
+
+
+
+
+/* Location */
+
+.location{
+margin-top:70px;
+padding:40px;
+text-align:center;
+background-color:#f5f5f5;
+}
+
+
+/* Booking Form */
+
+form{
+max-width:520px;
+width:90%;
+margin:50px auto;
+padding:20px;
+background-color:#f8f9fa;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+display:none;
+}
+
+form label{
+display:block;
+font-weight:bold;
+margin-bottom:5px;
+}
+
+form input{
+width:100%;
+padding:8px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:5px;
+font-size:14px;
+}
